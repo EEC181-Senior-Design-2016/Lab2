@@ -1,0 +1,184 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 2.563
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 11.472
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.493
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 5.041
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 14.071
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.908
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.063
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 1.025
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.039
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.803
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 2.560
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 11.565
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 5.134
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 14.167
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.863
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.012
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 1.030
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.046
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.806
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 2.943
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 13.759
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 5.393
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 15.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.984
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 1.300
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.307
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.789
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 2.943
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 14.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 5.491
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 15.357
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 0.889
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk'
+Slack : 1.304
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'mysystem_lab2_part3:u0|mysystem_lab2_part3_hps_0:hps_0|mysystem_lab2_part3_hps_0_hps_io:hps_io|mysystem_lab2_part3_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk'
+Slack : 1.311
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.803
+TNS   : 0.000
+
+------------------------------------------------------------
+Info: see the "DDR report" for DDR timing results
+------------------------------------------------------------
+------------------------------------------------------------

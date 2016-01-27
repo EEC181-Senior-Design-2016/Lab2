@@ -1,0 +1,224 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 432 384)
+	(text "mysystem_lab2" (rect 170 -1 236 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 368 20 380)(font "Arial" ))
+	(port
+		(pt 432 312)
+		(input)
+		(text "memory_oct_rzqin" (rect 0 0 76 12)(font "Arial" (font_size 8)))
+		(text "memory_oct_rzqin" (rect 339 301 435 312)(font "Arial" (font_size 8)))
+		(line (pt 432 312)(pt 272 312)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "pushbutton_export[3..0]" (rect 0 0 93 12)(font "Arial" (font_size 8)))
+		(text "pushbutton_export[3..0]" (rect 4 61 142 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 160 72)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "system_ref_clk_clk" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "system_ref_clk_clk" (rect 4 101 112 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 160 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "system_ref_reset_reset" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "system_ref_reset_reset" (rect 4 141 136 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 160 152)(line_width 1))
+	)
+	(port
+		(pt 432 72)
+		(output)
+		(text "memory_mem_a[12..0]" (rect 0 0 96 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_a[12..0]" (rect 322 61 436 72)(font "Arial" (font_size 8)))
+		(line (pt 432 72)(pt 272 72)(line_width 3))
+	)
+	(port
+		(pt 432 88)
+		(output)
+		(text "memory_mem_ba[2..0]" (rect 0 0 97 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_ba[2..0]" (rect 320 77 434 88)(font "Arial" (font_size 8)))
+		(line (pt 432 88)(pt 272 88)(line_width 3))
+	)
+	(port
+		(pt 432 104)
+		(output)
+		(text "memory_mem_ck" (rect 0 0 77 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_ck" (rect 345 93 423 104)(font "Arial" (font_size 8)))
+		(line (pt 432 104)(pt 272 104)(line_width 1))
+	)
+	(port
+		(pt 432 120)
+		(output)
+		(text "memory_mem_ck_n" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_ck_n" (rect 332 109 422 120)(font "Arial" (font_size 8)))
+		(line (pt 432 120)(pt 272 120)(line_width 1))
+	)
+	(port
+		(pt 432 136)
+		(output)
+		(text "memory_mem_cke" (rect 0 0 82 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_cke" (rect 339 125 423 136)(font "Arial" (font_size 8)))
+		(line (pt 432 136)(pt 272 136)(line_width 1))
+	)
+	(port
+		(pt 432 152)
+		(output)
+		(text "memory_mem_cs_n" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_cs_n" (rect 331 141 421 152)(font "Arial" (font_size 8)))
+		(line (pt 432 152)(pt 272 152)(line_width 1))
+	)
+	(port
+		(pt 432 168)
+		(output)
+		(text "memory_mem_ras_n" (rect 0 0 92 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_ras_n" (rect 327 157 423 168)(font "Arial" (font_size 8)))
+		(line (pt 432 168)(pt 272 168)(line_width 1))
+	)
+	(port
+		(pt 432 184)
+		(output)
+		(text "memory_mem_cas_n" (rect 0 0 93 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_cas_n" (rect 325 173 421 184)(font "Arial" (font_size 8)))
+		(line (pt 432 184)(pt 272 184)(line_width 1))
+	)
+	(port
+		(pt 432 200)
+		(output)
+		(text "memory_mem_we_n" (rect 0 0 89 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_we_n" (rect 327 189 417 200)(font "Arial" (font_size 8)))
+		(line (pt 432 200)(pt 272 200)(line_width 1))
+	)
+	(port
+		(pt 432 216)
+		(output)
+		(text "memory_mem_reset_n" (rect 0 0 99 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_reset_n" (rect 318 205 426 216)(font "Arial" (font_size 8)))
+		(line (pt 432 216)(pt 272 216)(line_width 1))
+	)
+	(port
+		(pt 432 280)
+		(output)
+		(text "memory_mem_odt" (rect 0 0 80 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_odt" (rect 341 269 425 280)(font "Arial" (font_size 8)))
+		(line (pt 432 280)(pt 272 280)(line_width 1))
+	)
+	(port
+		(pt 432 296)
+		(output)
+		(text "memory_mem_dm" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_dm" (rect 342 285 420 296)(font "Arial" (font_size 8)))
+		(line (pt 432 296)(pt 272 296)(line_width 1))
+	)
+	(port
+		(pt 432 352)
+		(output)
+		(text "sdram_clk_clk" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "sdram_clk_clk" (rect 360 341 438 352)(font "Arial" (font_size 8)))
+		(line (pt 432 352)(pt 272 352)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "to_hex_to_led_readdata[31..0]" (rect 0 0 120 12)(font "Arial" (font_size 8)))
+		(text "to_hex_to_led_readdata[31..0]" (rect 4 181 178 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 160 192)(line_width 3))
+	)
+	(port
+		(pt 432 232)
+		(bidir)
+		(text "memory_mem_dq[7..0]" (rect 0 0 97 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_dq[7..0]" (rect 320 221 434 232)(font "Arial" (font_size 8)))
+		(line (pt 432 232)(pt 272 232)(line_width 3))
+	)
+	(port
+		(pt 432 248)
+		(bidir)
+		(text "memory_mem_dqs" (rect 0 0 82 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_dqs" (rect 338 237 422 248)(font "Arial" (font_size 8)))
+		(line (pt 432 248)(pt 272 248)(line_width 1))
+	)
+	(port
+		(pt 432 264)
+		(bidir)
+		(text "memory_mem_dqs_n" (rect 0 0 93 12)(font "Arial" (font_size 8)))
+		(text "memory_mem_dqs_n" (rect 325 253 421 264)(font "Arial" (font_size 8)))
+		(line (pt 432 264)(pt 272 264)(line_width 1))
+	)
+	(drawing
+		(text "memory" (rect 273 43 582 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "mem_a" (rect 237 67 504 144)(font "Arial" (color 0 0 0)))
+		(text "mem_ba" (rect 232 83 500 176)(font "Arial" (color 0 0 0)))
+		(text "mem_ck" (rect 232 99 500 208)(font "Arial" (color 0 0 0)))
+		(text "mem_ck_n" (rect 221 115 490 240)(font "Arial" (color 0 0 0)))
+		(text "mem_cke" (rect 227 131 496 272)(font "Arial" (color 0 0 0)))
+		(text "mem_cs_n" (rect 221 147 490 304)(font "Arial" (color 0 0 0)))
+		(text "mem_ras_n" (rect 217 163 488 336)(font "Arial" (color 0 0 0)))
+		(text "mem_cas_n" (rect 216 179 486 368)(font "Arial" (color 0 0 0)))
+		(text "mem_we_n" (rect 220 195 488 400)(font "Arial" (color 0 0 0)))
+		(text "mem_reset_n" (rect 209 211 484 432)(font "Arial" (color 0 0 0)))
+		(text "mem_dq" (rect 232 227 500 464)(font "Arial" (color 0 0 0)))
+		(text "mem_dqs" (rect 227 243 496 496)(font "Arial" (color 0 0 0)))
+		(text "mem_dqs_n" (rect 216 259 486 528)(font "Arial" (color 0 0 0)))
+		(text "mem_odt" (rect 229 275 500 560)(font "Arial" (color 0 0 0)))
+		(text "mem_dm" (rect 229 291 494 592)(font "Arial" (color 0 0 0)))
+		(text "oct_rzqin" (rect 230 307 514 624)(font "Arial" (color 0 0 0)))
+		(text "pushbutton" (rect 97 43 254 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 67 366 144)(font "Arial" (color 0 0 0)))
+		(text "sdram_clk" (rect 273 323 600 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 257 347 532 704)(font "Arial" (color 0 0 0)))
+		(text "system_ref_clk" (rect 70 83 224 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 165 107 348 224)(font "Arial" (color 0 0 0)))
+		(text "system_ref_reset" (rect 56 123 208 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 165 147 360 304)(font "Arial" (color 0 0 0)))
+		(text "to_hex_to_led" (rect 78 163 234 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "readdata" (rect 165 187 378 384)(font "Arial" (color 0 0 0)))
+		(text " mysystem_lab2 " (rect 360 368 810 746)(font "Arial" ))
+		(line (pt 160 32)(pt 272 32)(line_width 1))
+		(line (pt 272 32)(pt 272 368)(line_width 1))
+		(line (pt 160 368)(pt 272 368)(line_width 1))
+		(line (pt 160 32)(pt 160 368)(line_width 1))
+		(line (pt 271 52)(pt 271 316)(line_width 1))
+		(line (pt 270 52)(pt 270 316)(line_width 1))
+		(line (pt 161 52)(pt 161 76)(line_width 1))
+		(line (pt 162 52)(pt 162 76)(line_width 1))
+		(line (pt 271 332)(pt 271 356)(line_width 1))
+		(line (pt 270 332)(pt 270 356)(line_width 1))
+		(line (pt 161 92)(pt 161 116)(line_width 1))
+		(line (pt 162 92)(pt 162 116)(line_width 1))
+		(line (pt 161 132)(pt 161 156)(line_width 1))
+		(line (pt 162 132)(pt 162 156)(line_width 1))
+		(line (pt 161 172)(pt 161 196)(line_width 1))
+		(line (pt 162 172)(pt 162 196)(line_width 1))
+		(line (pt 0 0)(pt 432 0)(line_width 1))
+		(line (pt 432 0)(pt 432 384)(line_width 1))
+		(line (pt 0 384)(pt 432 384)(line_width 1))
+		(line (pt 0 0)(pt 0 384)(line_width 1))
+	)
+)
